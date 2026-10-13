@@ -15,9 +15,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
+    position: relative;
 }
 
 .search {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -88,4 +92,33 @@ body {
     width: 20px;
     height: 20px;
     flex-shrink: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 60px 20px;
+}
+
+.nav-btn {
+    width: 180px;
+    text-align: center;
+    padding: 12px 0;
+    border: 2px solid #a3602e;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #a3602e;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.nav-btn:hover {
+    background-color: #a3602e;
+    color: #f2e6dd;
+}
+
+.nav-btn.active {
+    background-color: #a3602e;
+    color: #f2e6dd;
 }
