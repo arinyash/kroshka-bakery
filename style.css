@@ -225,3 +225,135 @@ body {
     43%  { opacity: 0; }
     100% { opacity: 0; }
 }
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 60px 40px;
+}
+
+.big-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 380px;
+}
+
+.big-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    color: #f2e6dd;
+}
+
+.big-card-text h3 {
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.arrow-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f2e6dd;
+    color: #a3602e;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.category-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.big-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 380px;
+}
+
+.big-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.6));
+    color: #f2e6dd;
+}
+
+.big-card-text h3 {
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.arrow-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f2e6dd;
+    color: #a3602e;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.small-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    height: 380px;
+}
+
+.small-card {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.small-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.small-card-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;
+    background: rgba(242, 230, 221, 0.9);
+    color: #a3602e;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
