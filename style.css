@@ -9,3 +9,83 @@ body {
     background-color: #f2e6dd;
     color: #a3602e;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f2e6dd;
+    border: 2px solid #a3602e;
+    border-radius: 30px;
+    padding: 8px 20px;
+    width: 500px;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #a3602e;
+    font-size: 16px;
+    width: 100%;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #a3602e;
+    color: #f2e6dd;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.icon-search {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
