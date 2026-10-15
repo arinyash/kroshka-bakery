@@ -357,3 +357,39 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.preorder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: #e8d5c0;
+    border-radius: 20px;
+    padding: 30px 50px;
+    margin: 0 60px 40px;
+}
+
+.preorder-text h2 {
+    font-size: 38px;
+    font-style: italic;
+    color: #6f370e;
+    margin-bottom: 5px;
+}
+
+.preorder-text p {
+    font-size: 16px;
+}
+
+.preorder-btn {
+    padding: 15px 30px;
+    border: 2px solid #a3602e;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #a3602e;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.preorder-btn:hover {
+    background-color: #a3602e;
+    color: #f2e6dd;
+}
